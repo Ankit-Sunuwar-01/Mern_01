@@ -2,6 +2,7 @@
 class Sound {
   name;
   sound;
+
   constuctor(name, sound) {
     this.name = name;
     this.sound = sound;
@@ -15,4 +16,4 @@ class Sound {
 class Animal extends Sound {}
 
 const dog = new Animal("Dog", "woof");
-dog.makesound();
+dog.makeSound();
